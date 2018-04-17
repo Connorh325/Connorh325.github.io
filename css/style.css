@@ -1,6 +1,65 @@
 .container {
-    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 900px;
+    width: 2500px;
+}
+
+.header_text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.8rem;
+    float: left;
+}
+
+.header_subtext{
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 25px;
+    font-size: 1.8rem;
+    float: left;
+    margin-top: 13px;
+}
+
+.header_text_links {
+    font-family: 'Ubuntu', sans-serif;
+    float: right;
+    font-size: 2.4rem;
+    padding-left: 40px;
+    color: black;
+    text-decoration: none;
+    margin-top: 7px;
+}
+
+.topbar {
+    background-color: white;
+    width: 2500px;
+    position: fixed;
+    height: 50px;
+    outline: red solid 1px;
+}
+
+.home_image {
+    padding-top: 50px;
+    width: 2500px;
+    height: 1400px;
+    outline: red solid 1px;
+}
+
+.profile_picture {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding-top: 400px;
+}
+
+.profile_name {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+.sub_profile {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 0;
 }
