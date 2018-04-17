@@ -1,65 +1,84 @@
+body {
+    margin: 0px;
+}
+
+div {
+    otline: red solid 1px;
+}
+
 .container {
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
-    width: 2500px;
+    width: 1500px;
 }
 
 .header_text {
+    padding-top: 10px;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 2.8rem;
+    font-size: 2rem;
     float: left;
 }
 
 .header_subtext{
     font-family: 'Ubuntu', sans-serif;
-    padding-left: 25px;
-    font-size: 1.8rem;
+    padding-left: 15px;
+    font-size: 1.2rem;
     float: left;
-    margin-top: 13px;
+    margin-top: 22px;
 }
 
 .header_text_links {
     font-family: 'Ubuntu', sans-serif;
     float: right;
-    font-size: 2.4rem;
-    padding-left: 40px;
+    font-size: 1.5rem;
+    padding-left: 20px;
     color: black;
     text-decoration: none;
-    margin-top: 7px;
+    margin-top: 19px;
+    margin-right: auto;
 }
 
 .topbar {
     background-color: white;
-    width: 2500px;
+    width: 1500px;
     position: fixed;
     height: 50px;
-    outline: red solid 1px;
+}
+
+.space {
+    padding-top: 270px;
+}
+
+.line {
+    outline: black solid 1px;
 }
 
 .home_image {
+    
     padding-top: 50px;
-    width: 2500px;
-    height: 1400px;
-    outline: red solid 1px;
+    width: 1500px;
+    height: 1000px;
 }
 
 .profile_picture {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     margin: auto;
-    padding-top: 400px;
+    padding-top: 100px;
 }
 
 .profile_name {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
     margin: 0;
+    padding-top: 20px;
 }
 
 .sub_profile {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: center;
     margin: 0;
 }
