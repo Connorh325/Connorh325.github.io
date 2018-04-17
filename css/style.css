@@ -1,9 +1,14 @@
+
 body {
     margin: 0px;
 }
 
 div {
-    otline: red solid 1px;
+    utline: red solid 1px;
+}
+
+.header_text_links:hover {
+    color: red;
 }
 
 .container {
@@ -46,19 +51,15 @@ div {
     height: 50px;
 }
 
-.space {
-    padding-top: 270px;
-}
 
 .line {
     outline: black solid 1px;
 }
 
 .home_image {
-    
     padding-top: 50px;
     width: 1500px;
-    height: 1000px;
+    height: 850px;
 }
 
 .profile_picture {
@@ -81,4 +82,65 @@ div {
     font-size: 1.5rem;
     text-align: center;
     margin: 0;
+}
+
+.about {
+    margin-top: 100px;
+    height: 600px;
+    width: 1500px;
+}
+
+.bio_text_left {
+    width: 600px;
+    height: 400px;
+    float: left;
+}
+
+.bio_text_right {
+    width: 900px;
+    padding-top: 100px;
+    height: 300px;
+    float: left;
+}
+
+.bio_left_text_title {
+    width: 600px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.2rem;
+    float: left;
+    padding-bottom: 60px;
+}
+
+.bio_left_text_subtitle_1 {
+    width: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    float: left;
+}
+
+.bio_left_text_subtitle_2 {
+    width: 600px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.7rem;
+    float: left;
+}
+
+.bio_left_text_subtitle_3 {
+    width: 600px;
+    padding-top: 2px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    float: left;
+}
+
+.bio_text {
+    width: 890px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1rem;
+    float: left;
+    padding-right: 
 }
