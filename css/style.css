@@ -3,10 +3,6 @@ body {
     margin: 0px;
 }
 
-div {
-    utline: red solid 1px;
-}
-
 .header_text_links:hover {
     color: red;
 }
